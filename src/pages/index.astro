@@ -1,81 +1,332 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
-	</main>
-</Layout>
+<Layout title="The Idea Factory">
+	<div class="py-48">
+		<div class="w-full container mx-auto max-w-screen-xl">
+			<div class="max-w-xl flex flex-col gap-8">
+				<div
+					class="flex flex-col gap-4 animate__fadeIn animate__animated"
+				>
+					<h1 class="text-4xl text-zinc-950">
+						Where innovation thrives!
+					</h1>
+					<p class="text-xl">
+						At The Idea Factory, we believe that innovation is the
+						key to success. We are a community of innovators,
+						creators, and entrepreneurs who are committed to helping
+						each other succeed.
+					</p>
+				</div>
+				<div
+					class="flex gap-4 animate__fadeIn animate__animated animate__duration-1s"
+				>
+					<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
+						<button
+							class="p-2 font-semibold bg-blue-600 px-4 text-white flex gap-2 items-center"
+						>
+							Apply for 2023 S2
+							<svg
+								width="32"
+								height="32"
+								viewBox="0 0 60 60"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M32.6778 21.5L40.5 30M32.6778 38.5L40.5 30M40.5 30L18.5 30"
+									stroke="#ffffff"
+									stroke-linecap="round"
+									stroke-linejoin="round"></path>
+							</svg>
+						</button>
+					</a>
+					<a href="/about">
+						<button class="p-2 font-semibold underline">
+							Learn more
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="py-32 flex flex-col gap-8 bg-zinc-200">
+		<div class="container mx-auto max-w-screen-xl">
+			<div class="flex flex-col gap-4">
+				<p class="uppercase text-sm font-semibold">Process</p>
+				<h2 class="text-3xl text-zinc-950">
+					How The Idea Factory works
+				</h2>
+				<div class="flex justify-between gap-16">
+					<p class="w-full">
+						The Idea Factory is a student startup accelerator that
+						is dedicated to fostering innovation, creativity, and
+						entrepreneurship among students. Our primary goal is to
+						provide a supportive and collaborative environment where
+						student entrepreneurs can thrive. We believe that by
+						nurturing and empowering student startups, we can drive
+						impactful change and create a vibrant ecosystem for
+						innovation. At the Idea Factory, we offer a range of
+						resources and support to help student startups succeed.
+						This includes mentorship from experienced industry
+						professionals who guide students through the startup
+						journey, providing valuable insights and advice.
+						<br />
+						<br />
+						We also provide to a network of investors and industry partners
+						who can offer funding opportunities and strategic partnerships.
+						Additionally, we offer workshops, training programs, and
+						networking events to help students develop their entrepreneurial
+						skills and expand their knowledge.
+					</p>
+					<p class="w-full">
+						Quality assurance is a key aspect of the Idea Factory.
+						We emphasize the importance of thorough testing,
+						feedback loops, and iterative development to ensure that
+						student startups deliver high-quality or services. Our
+						team of mentors and experts work closely with students
+						to help them refine their business models, validate
+						their ideas, and build sustainable businesses. We
+						believe in attention to detail and strive to create
+						user-focused solutions that meet the needs of the target
+						audience.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="py-32">
+		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
+			<p class="uppercase text-sm font-semibold">Membership Perks</p>
 
-<style>
-	main {
-		margin: auto;
-		padding: 1.5rem;
-		max-width: 60ch;
-	}
-	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		line-height: 1.6;
-		margin: 1rem 0;
-		border: 1px solid rgba(var(--accent), 25%);
-		background-color: white;
-		padding: 1rem;
-		border-radius: 0.4rem;
-	}
-	.instructions code {
-		font-size: 0.875em;
-		font-weight: bold;
-		background: rgba(var(--accent), 12%);
-		color: rgb(var(--accent));
-		border-radius: 4px;
-		padding: 0.3em 0.45em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 1rem;
-		padding: 0;
-	}
-</style>
+			<h3 class="text-3xl text-zinc-950 leading-normal">
+				Unleash your entrepreneurial potential with The Idea Factory,
+				the ultimate student startup accelerator! Elevate your ideas,
+				refine your skills, and embark on the journey to becoming a
+				groundbreaking founder.
+			</h3>
+			<div class="grid grid-cols-3 gap-8 mt-16">
+				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<p class="text-xl">📒</p>
+					<h4 class="uppercase text-sm font-semibold">Mentorship</h4>
+					<p>
+						We connect you with industry experts and successful
+						entrepreneurs to help you grow your business.
+					</p>
+				</div>
+				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<p class="text-xl">📈</p>
+					<h4 class="uppercase text-sm font-semibold">Community</h4>
+					<p>
+						The Idea Factory is a community of innovators, creators,
+						and entrepreneurs who are committed to helping each
+						other succeed.
+					</p>
+				</div>
+				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<p class="text-xl">📣</p>
+					<h4 class="uppercase text-sm font-semibold">Pitching</h4>
+					<p>
+						We help you refine your pitch and connect you with
+						investors to help you raise capital.
+					</p>
+				</div>
+				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<p class="text-xl">📝</p>
+					<h4 class="uppercase text-sm font-semibold">Resources</h4>
+					<p>
+						Gain access to cloud resources, our library, including
+						pitch decks, business plans and more.
+					</p>
+				</div>
+				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<p class="text-xl">📚</p>
+					<h4 class="uppercase text-sm font-semibold">Education</h4>
+					<p>
+						We regularly host workshops and seminars, with industry
+						experts to help you learn the skills you need to
+						succeed.
+					</p>
+				</div>
+				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<p class="text-xl">🏆</p>
+					<h4 class="uppercase text-sm font-semibold">
+						Competitions
+					</h4>
+					<p>
+						Every season we host a pitch competition where you can
+						pitch your idea to a panel of judges for a chance to win
+						prices.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="py-32">
+		<div class="container mx-auto max-w-screen-xl flex flex-col gap-16">
+			<div class="flex flex-col gap-2">
+				<p class="text-3xl">
+					The Idea Factory is a community of innovators, creators, and
+					entrepreneurs who are committed to helping each other
+					succeed. We believe that innovation is the key to our
+					success.
+				</p>
+				<p class="uppercase text-sm font-semibold">
+					T. C. Chinyamakobvu - CEO, Brainwave
+				</p>
+			</div>
+			<div class="flex flex-col gap-2">
+				<p class="text-3xl">
+					The Idea Factory is a community of innovators, creators, and
+					entrepreneurs who are committed to helping each other
+					succeed. We believe that innovation is the key to our
+					success.
+				</p>
+				<p class="uppercase text-sm font-semibold">
+					T. D. Kamusoko - CEO, Confort
+				</p>
+			</div>
+			<div class="flex flex-col gap-2">
+				<p class="text-3xl">
+					The Idea Factory is a community of innovators, creators, and
+					entrepreneurs who are committed to helping each other
+					succeed. We believe that innovation is the key to our
+					success.
+				</p>
+				<p class="uppercase text-sm font-semibold">
+					T. Sengerai - CEO, the idea factory
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="py-32 bg-zinc-900">
+		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
+			<p class="uppercase text-sm font-semibold text-zinc-100">
+				2023 Season 1 Cohort
+			</p>
+			<h3 class="text-3xl text-white max-w-xl">
+				Season 1 applications are now open!
+			</h3>
+			<div
+				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
+			>
+				<p
+					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+				>
+					01 July 2023
+				</p>
+				<h4 class="text-xl text-white">Applications open</h4>
+				<p class="text-zinc-300">
+					Join our AI Accelerator slack community, receive your Vercel
+					and AI partner credits, and get the schedule for the
+					program.
+				</p>
+			</div>
+			<div
+				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
+			>
+				<p
+					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+				>
+					30 July 2023
+				</p>
+				<h4 class="text-xl text-white">Deadline for applications</h4>
+				<p class="text-zinc-300">
+					Join our AI Accelerator slack community, receive your Vercel
+					and AI partner credits, and get the schedule for the
+					program.
+				</p>
+			</div>
+			<div
+				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
+			>
+				<p
+					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+				>
+					16 August 2023
+				</p>
+				<h4 class="text-xl text-white">Finalists announced</h4>
+				<p class="text-zinc-300">
+					Join our AI Accelerator slack community, receive your Vercel
+					and AI partner credits, and get the schedule for the
+					program.
+				</p>
+			</div>
+			<div
+				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
+			>
+				<p
+					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+				>
+					01 September 2023
+				</p>
+				<h4 class="text-xl text-white">Cohort starts</h4>
+				<p class="text-zinc-300">
+					Join our AI Accelerator slack community, receive your Vercel
+					and AI partner credits, and get the schedule for the
+					program.
+				</p>
+			</div>
+			<div
+				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
+			>
+				<p
+					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+				>
+					01 December 2023
+				</p>
+				<h4 class="text-xl text-white">Demo day</h4>
+				<p class="text-zinc-300">
+					Join our AI Accelerator slack community, receive your Vercel
+					and AI partner credits, and get the schedule for the
+					program.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="py-32">
+		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
+			<p class="uppercase text-sm font-semibold">Get started</p>
+			<h3 class="text-3xl text-zinc-950 max-w-md">
+				Ready to take your startup to the next level?
+			</h3>
+			<div class="grid grid-cols-2 gap-8 mt-16">
+				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<h4 class="uppercase text-sm font-semibold">
+						Apply to the program
+					</h4>
+					<p>
+						Submit your application for the 2023 S2 cohort. We will
+						contact you with next steps.
+					</p>
+					<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
+						<button
+							class="p-2 font-semibold bg-blue-600 px-4 text-white uppercase w-full"
+						>
+							Apply for 2023 S2
+						</button>
+					</a>
+				</div>
+				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<h4 class="uppercase text-sm font-semibold">
+						Join our community
+					</h4>
+					<p>
+						Join our community of innovators, creators, and
+						entrepreneurs who are committed to helping each other
+						succeed.
+					</p>
+					<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
+						<button
+							class="p-2 font-semibold border border-zinc-200 bg-zinc-50 px-4 uppercase w-full"
+						>
+							Join the WhatsApp group
+						</button>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</Layout>
