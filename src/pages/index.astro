@@ -4,7 +4,7 @@ import Card from "../components/Card.astro";
 ---
 
 <Layout title="The Idea Factory">
-	<div class="py-48">
+	<div class="py-48 p-4">
 		<div class="w-full container mx-auto max-w-screen-xl">
 			<div class="max-w-xl flex flex-col gap-8">
 				<div
@@ -52,14 +52,14 @@ import Card from "../components/Card.astro";
 			</div>
 		</div>
 	</div>
-	<div class="py-32 flex flex-col gap-8 bg-zinc-200">
+	<div class="py-32 flex flex-col gap-8 bg-zinc-200 p-4">
 		<div class="container mx-auto max-w-screen-xl">
 			<div class="flex flex-col gap-4">
 				<p class="uppercase text-sm font-semibold">Process</p>
 				<h2 class="text-3xl text-zinc-950">
 					How The Idea Factory works
 				</h2>
-				<div class="flex justify-between gap-16">
+				<div class="flex flex-col md:flex justify-between gap-16">
 					<p class="w-full">
 						The Idea Factory is a student startup accelerator that
 						is dedicated to fostering innovation, creativity, and
@@ -97,7 +97,7 @@ import Card from "../components/Card.astro";
 			</div>
 		</div>
 	</div>
-	<div class="py-32">
+	<div class="py-32 p-4">
 		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
 			<p class="uppercase text-sm font-semibold">Membership Perks</p>
 
@@ -107,7 +107,9 @@ import Card from "../components/Card.astro";
 				refine your skills, and embark on the journey to becoming a
 				groundbreaking founder.
 			</h3>
-			<div class="grid grid-cols-3 gap-8 mt-16">
+			<div
+				class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16"
+			>
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
 					<p class="text-xl">📒</p>
 					<h4 class="uppercase text-sm font-semibold">Mentorship</h4>
@@ -164,7 +166,7 @@ import Card from "../components/Card.astro";
 			</div>
 		</div>
 	</div>
-	<div class="py-32">
+	<div class="py-32 p-4">
 		<div class="container mx-auto max-w-screen-xl flex flex-col gap-16">
 			<div class="flex flex-col gap-2">
 				<p class="text-3xl">
@@ -201,7 +203,7 @@ import Card from "../components/Card.astro";
 			</div>
 		</div>
 	</div>
-	<div class="py-32 bg-zinc-900">
+	<div class="py-32 bg-zinc-900 p-4">
 		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
 			<p class="uppercase text-sm font-semibold text-zinc-100">
 				2023 Season 1 Cohort
@@ -286,13 +288,13 @@ import Card from "../components/Card.astro";
 			</div>
 		</div>
 	</div>
-	<div class="py-32">
+	<div class="py-32 p-4">
 		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
 			<p class="uppercase text-sm font-semibold">Get started</p>
 			<h3 class="text-3xl text-zinc-950 max-w-md">
 				Ready to take your startup to the next level?
 			</h3>
-			<div class="grid grid-cols-2 gap-8 mt-16">
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
 					<h4 class="uppercase text-sm font-semibold">
 						Apply to the program
