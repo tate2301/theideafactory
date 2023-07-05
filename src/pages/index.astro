@@ -4,13 +4,16 @@ import Card from "../components/Card.astro";
 ---
 
 <Layout title="The Idea Factory">
-	<div class="py-48 p-4">
-		<div class="w-full container mx-auto max-w-screen-xl">
-			<div class="max-w-xl flex flex-col gap-8">
+	<div class="py-32 p-4">
+		<div
+			style="background-image: url('/chart-banner.svg'); background-position: bottom; background-repeat: no-repeat; background-size: contain;"
+			class="w-full container flex relative flex-col md:flex-row mx-auto max-w-screen-xl items-center gap-32 overflow-visible"
+		>
+			<div class="max-w-xl z-10 flex-1 flex flex-col gap-8">
 				<div
 					class="flex flex-col gap-4 animate__fadeIn animate__animated"
 				>
-					<h1 class="text-4xl text-zinc-950">
+					<h1 class="text-5xl text-zinc-950 font-bold">
 						Where innovation thrives!
 					</h1>
 					<p class="text-xl">
@@ -25,7 +28,7 @@ import Card from "../components/Card.astro";
 				>
 					<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
 						<button
-							class="p-2 font-semibold bg-blue-600 px-4 text-white flex gap-2 items-center"
+							class="p-2 font- bg-[#FF3E1E] px-4 text-white flex gap-2 items-center"
 						>
 							Apply for 2023 S2
 							<svg
@@ -44,18 +47,37 @@ import Card from "../components/Card.astro";
 						</button>
 					</a>
 					<a href="/about">
-						<button class="p-2 font-semibold underline">
-							Learn more
-						</button>
+						<button class="p-2 font- underline"> Learn more</button>
 					</a>
 				</div>
 			</div>
+			<div
+				class="w-full flex-1 aspect-video md:aspect-square rounded-xl mb-32 flex justify-center items-center"
+			>
+				<button>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke-width="1.5"
+						stroke="currentColor"
+						class="w-16 h-16 text-white"
+					>
+						<path
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+						></path>
+					</svg>
+				</button>
+			</div>
 		</div>
 	</div>
+
 	<div class="py-32 flex flex-col gap-8 bg-zinc-200 p-4">
 		<div class="container mx-auto max-w-screen-xl">
 			<div class="flex flex-col gap-4">
-				<p class="uppercase text-sm font-semibold">Process</p>
+				<p class="uppercase text-sm font-">Process</p>
 				<h2 class="text-3xl text-zinc-950">
 					How The Idea Factory works
 				</h2>
@@ -99,7 +121,7 @@ import Card from "../components/Card.astro";
 	</div>
 	<div class="py-32 p-4">
 		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
-			<p class="uppercase text-sm font-semibold">Membership Perks</p>
+			<p class="uppercase text-sm font-">Membership Perks</p>
 
 			<h3 class="text-3xl text-zinc-950 leading-normal">
 				Unleash your entrepreneurial potential with The Idea Factory,
@@ -112,7 +134,7 @@ import Card from "../components/Card.astro";
 			>
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
 					<p class="text-xl">📒</p>
-					<h4 class="uppercase text-sm font-semibold">Mentorship</h4>
+					<h4 class="uppercase text-sm font-">Mentorship</h4>
 					<p>
 						We connect you with industry experts and successful
 						entrepreneurs to help you grow your business.
@@ -120,7 +142,7 @@ import Card from "../components/Card.astro";
 				</div>
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
 					<p class="text-xl">📈</p>
-					<h4 class="uppercase text-sm font-semibold">Community</h4>
+					<h4 class="uppercase text-sm font-">Community</h4>
 					<p>
 						The Idea Factory is a community of innovators, creators,
 						and entrepreneurs who are committed to helping each
@@ -129,7 +151,7 @@ import Card from "../components/Card.astro";
 				</div>
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
 					<p class="text-xl">📣</p>
-					<h4 class="uppercase text-sm font-semibold">Pitching</h4>
+					<h4 class="uppercase text-sm font-">Pitching</h4>
 					<p>
 						We help you refine your pitch and connect you with
 						investors to help you raise capital.
@@ -137,7 +159,7 @@ import Card from "../components/Card.astro";
 				</div>
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
 					<p class="text-xl">📝</p>
-					<h4 class="uppercase text-sm font-semibold">Resources</h4>
+					<h4 class="uppercase text-sm font-">Resources</h4>
 					<p>
 						Gain access to cloud resources, our library, including
 						pitch decks, business plans and more.
@@ -145,7 +167,7 @@ import Card from "../components/Card.astro";
 				</div>
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
 					<p class="text-xl">📚</p>
-					<h4 class="uppercase text-sm font-semibold">Education</h4>
+					<h4 class="uppercase text-sm font-">Education</h4>
 					<p>
 						We regularly host workshops and seminars, with industry
 						experts to help you learn the skills you need to
@@ -154,9 +176,7 @@ import Card from "../components/Card.astro";
 				</div>
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
 					<p class="text-xl">🏆</p>
-					<h4 class="uppercase text-sm font-semibold">
-						Competitions
-					</h4>
+					<h4 class="uppercase text-sm font-">Competitions</h4>
 					<p>
 						Every season we host a pitch competition where you can
 						pitch your idea to a panel of judges for a chance to win
@@ -175,7 +195,7 @@ import Card from "../components/Card.astro";
 					succeed. We believe that innovation is the key to our
 					success.
 				</p>
-				<p class="uppercase text-sm font-semibold">
+				<p class="uppercase text-sm font-">
 					T. C. Chinyamakobvu - CEO, Brainwave
 				</p>
 			</div>
@@ -186,7 +206,7 @@ import Card from "../components/Card.astro";
 					succeed. We believe that innovation is the key to our
 					success.
 				</p>
-				<p class="uppercase text-sm font-semibold">
+				<p class="uppercase text-sm font-">
 					T. D. Kamusoko - CEO, Confort
 				</p>
 			</div>
@@ -197,7 +217,7 @@ import Card from "../components/Card.astro";
 					succeed. We believe that innovation is the key to our
 					success.
 				</p>
-				<p class="uppercase text-sm font-semibold">
+				<p class="uppercase text-sm font-">
 					T. Sengerai - CEO, the idea factory
 				</p>
 			</div>
@@ -205,7 +225,7 @@ import Card from "../components/Card.astro";
 	</div>
 	<div class="py-32 bg-zinc-900 p-4">
 		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
-			<p class="uppercase text-sm font-semibold text-zinc-100">
+			<p class="uppercase text-sm font- text-zinc-100">
 				2023 Season 1 Cohort
 			</p>
 			<h3 class="text-3xl text-white max-w-xl">
@@ -215,88 +235,83 @@ import Card from "../components/Card.astro";
 				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
 			>
 				<p
-					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+					class="uppercase text-sm font- text-zinc-100 bg-zinc-800 p-2 px-4"
 				>
 					01 July 2023
 				</p>
 				<h4 class="text-xl text-white">Applications open</h4>
 				<p class="text-zinc-300">
-					Join our AI Accelerator slack community, receive your Vercel
-					and AI partner credits, and get the schedule for the
-					program.
+					We are now accepting applications for the 2023 S1 cohort.
 				</p>
 			</div>
 			<div
 				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
 			>
 				<p
-					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+					class="uppercase text-sm font- text-zinc-100 bg-zinc-800 p-2 px-4"
 				>
 					30 July 2023
 				</p>
 				<h4 class="text-xl text-white">Deadline for applications</h4>
 				<p class="text-zinc-300">
-					Join our AI Accelerator slack community, receive your Vercel
-					and AI partner credits, and get the schedule for the
-					program.
+					Applications for the 2023 S1 cohort close on 30 July 2023.
+					We will not be accepting any late applications.
 				</p>
 			</div>
 			<div
 				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
 			>
 				<p
-					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+					class="uppercase text-sm font- text-zinc-100 bg-zinc-800 p-2 px-4"
 				>
 					16 August 2023
 				</p>
 				<h4 class="text-xl text-white">Finalists announced</h4>
 				<p class="text-zinc-300">
-					Join our AI Accelerator slack community, receive your Vercel
-					and AI partner credits, and get the schedule for the
-					program.
+					We will announce the finalists for the 2023 S1 cohort on 16
+					August 2023. We will contact you via email if you have been
+					selected.
 				</p>
 			</div>
 			<div
 				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
 			>
 				<p
-					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+					class="uppercase text-sm font- text-zinc-100 bg-zinc-800 p-2 px-4"
 				>
 					01 September 2023
 				</p>
 				<h4 class="text-xl text-white">Cohort starts</h4>
 				<p class="text-zinc-300">
-					Join our AI Accelerator slack community, receive your Vercel
-					and AI partner credits, and get the schedule for the
-					program.
+					Accepted teams will be notified via email and invited to
+					join start building their products.
 				</p>
 			</div>
 			<div
 				class="p-4 border border-zinc-700 flex flex-col gap-4 items-start max-w-screen-md"
 			>
 				<p
-					class="uppercase text-sm font-semibold text-zinc-100 bg-zinc-800 p-2 px-4"
+					class="uppercase text-sm font- text-zinc-100 bg-zinc-800 p-2 px-4"
 				>
 					01 December 2023
 				</p>
 				<h4 class="text-xl text-white">Demo day</h4>
 				<p class="text-zinc-300">
-					Join our AI Accelerator slack community, receive your Vercel
-					and AI partner credits, and get the schedule for the
-					program.
+					Teams will pitch their products to a panel of judges for a
+					chance to win prizes.
 				</p>
 			</div>
 		</div>
 	</div>
 	<div class="py-32 p-4">
 		<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
-			<p class="uppercase text-sm font-semibold">Get started</p>
+			<p class="uppercase text-sm font-">Get started</p>
 			<h3 class="text-3xl text-zinc-950 max-w-md">
 				Ready to take your startup to the next level?
 			</h3>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
-					<h4 class="uppercase text-sm font-semibold">
+					<h4 class="uppercase text-sm font-">
 						Apply to the program
 					</h4>
 					<p>
@@ -305,16 +320,14 @@ import Card from "../components/Card.astro";
 					</p>
 					<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
 						<button
-							class="p-2 font-semibold bg-blue-600 px-4 text-white uppercase w-full"
+							class="p-2 font- bg-blue-600 px-4 text-white uppercase w-full"
 						>
 							Apply for 2023 S2
 						</button>
 					</a>
 				</div>
 				<div class="p-8 flex flex-col gap-4 border border-zinc-300">
-					<h4 class="uppercase text-sm font-semibold">
-						Join our community
-					</h4>
+					<h4 class="uppercase text-sm font-">Join our community</h4>
 					<p>
 						Join our community of innovators, creators, and
 						entrepreneurs who are committed to helping each other
@@ -322,7 +335,7 @@ import Card from "../components/Card.astro";
 					</p>
 					<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
 						<button
-							class="p-2 font-semibold border border-zinc-200 bg-zinc-50 px-4 uppercase w-full"
+							class="p-2 font- border border-zinc-200 bg-zinc-50 px-4 uppercase w-full"
 						>
 							Join the WhatsApp group
 						</button>
@@ -332,3 +345,10 @@ import Card from "../components/Card.astro";
 		</div>
 	</div>
 </Layout>
+
+<style>
+	#video-player {
+		background-image: url("https://images.pexels.com/photos/908714/pexels-photo-908714.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load;");
+		background-size: cover;
+	}
+</style>

@@ -1,0 +1,83 @@
+---
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Sponsors">
+    <div
+        class="py-24 mx-auto max-w-screen-xl grid grid-cols-1 md:grid-cols-2 gap-32 items-center"
+    >
+        <div class="flex flex-col gap-8 col-span-1">
+            <h1 class="text-5xl font-bold">
+                Invest in the future of the Zimbabwean tech industry
+            </h1>
+            <p class="text-xl">
+                As a sponsor, you will get early access to our products and you
+                will be able to provide feedback and feature requests. In
+                addition, you will get a special sponsor badge on your profile
+                page.
+            </p>
+        </div>
+        <div class="flex-1 max-w-96 col-span-1 flex-shrink-0">
+            <div class="p-8 bg-white shadow flex flex-col gap-8">
+                <h3>Contribution amount</h3>
+                <div class="relative border border-gray-300">
+                    <div
+                        class="absolute top-0 left-2 pl-2 flex items-center h-full"
+                    >
+                        <span class="text-gray-500">$</span>
+                    </div>
+                    <input
+                        type="number"
+                        class="p-2 pl-8 w-full"
+                        placeholder="0.00"
+                    />
+                </div>
+                <div class="flex gap-4">
+                    <p
+                        class="text-sm border border-zinc-300 px-4 py-1 shadow-sm"
+                    >
+                        ${Intl.NumberFormat().format(500)}
+                    </p>
+                    <p
+                        class="text-sm border border-zinc-300 px-4 py-1 shadow-sm"
+                    >
+                        ${Intl.NumberFormat().format(2500)}
+                    </p>
+                    <p
+                        class="text-sm border border-zinc-300 px-4 py-1 shadow-sm"
+                    >
+                        ${Intl.NumberFormat().format(10000)}
+                    </p>
+                    <p
+                        class="text-sm border border-zinc-300 px-4 py-1 shadow-sm"
+                    >
+                        ${Intl.NumberFormat().format(25000)}
+                    </p>
+                </div>
+
+                <p>
+                    <input id="tos" name="tos" type="checkbox" />
+                    <label for="tos">
+                        I have read and agree to the <a href="#">terms</a> of the
+                        memorandum of understanding.
+                    </label>
+                </p>
+                <div class="w-full justify-end">
+                    <button
+                        class="bg-blue-600 text-white font-semibold px-6 py-2 shadow"
+                    >
+                        Become a sponsor
+                    </button>
+                </div>
+                <p class="text-sm">
+                    The Idea Factory channels all contributions to be used to
+                    build more products and improve the existing ones.
+                    Contributions are not tax deductible because we are not a
+                    registered non-profit.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="py-24 mx-auto max-w-screen-xl"></div>
+    <div class="py-24 mx-auto max-w-screen-xl"></div>
+</Layout>

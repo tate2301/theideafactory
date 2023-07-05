@@ -1,0 +1,394 @@
+---
+import { Anim } from "../components/AnimatedCharacter";
+import Layout from "../layouts/Layout.astro";
+// The Idea Factory 🏭 is a community of students who take
+//                    risks to create something new.
+---
+
+<Layout title="Manifesto - the idea factory">
+    <div
+        style="background: hsla(9, 100%, 56%, 1), hsla(220, 94%, 52%, 1), hsla(274, 100%, 51%, 1);"
+        class="container mx-auto max-w-screen-xl py-24 p-4"
+    >
+        <div class="flex flex-col gap-8">
+            <div class="flex flex-col gap-16 py-16">
+                <Anim client:load />
+
+                <p class="text-2xl">
+                    We help students turn their ideas into real products. We
+                    provide the tools, mentorship, and community to help you
+                    build your idea. We are here to help you learn the skills
+                    you need to become a successful entrepreneur.
+                    <br />
+                    <br />
+                </p>
+            </div>
+            <img
+                src="https://images.pexels.com/photos/1454360/pexels-photo-1454360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Students working on a project"
+                class="w-full aspect-[16/7] object-cover"
+            />
+        </div>
+    </div>
+    <div class="py-24 p-4 bg-white">
+        <div class="prose container mx-auto max-w-screen-xl">
+            <h3 class="text-3xl mb-4">Our story</h3>
+            <div
+                class="flex flex-col lg:flex-row gap-8 justify-between w-full items-start"
+            >
+                <div class="flex flex-col gap-8 max-w-screen-md">
+                    <p>
+                        The Idea Factory was founded by a group of experienced
+                        business professionals who recognized a growing need for
+                        mentorship and resources for aspiring entrepreneurs.
+                        Fueled by a shared passion for innovation and a desire
+                        to help young visionaries thrive, they set out to create
+                        a platform that would provide comprehensive support to
+                        startups.
+                    </p>
+
+                    <p>
+                        Through dedication and hard work, they established a
+                        community of entrepreneurs, mentors, and industry
+                        experts committed to fostering excellence,
+                        collaboration, and growth. By providing access to a
+                        diverse range of resources, from seed funding to
+                        networking opportunities, they have helped numerous
+                        startups achieve their business goals and drive their
+                        industries forward.
+                    </p>
+                </div>
+                <div class="flex flex-col gap-8 max-w-screen-md">
+                    <p>
+                        Despite the challenges of the startup landscape, The
+                        Idea Factory remains committed to its mission of
+                        empowering the next generation of business leaders. Its
+                        passionate and experienced team of mentors and
+                        professionals will continue to work tirelessly to build
+                        a platform that empowers startups to succeed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-24 p-4">
+        <div class="prose container mx-auto max-w-screen-xl">
+            <h3 class="text-3xl mb-4">Our approach</h3>
+            <div
+                class="flex flex-col lg:flex-row gap-8 justify-between w-full items-start"
+            >
+                <div class="flex flex-col gap-8 w-full">
+                    <div class="flex flex-col gap-2">
+                        <p>
+                            At The Idea Factory, we have designed a
+                            comprehensive approach that empowers startups to
+                            thrive in the competitive business landscape. Our
+                            multifaceted approach encompasses hackathons,
+                            mentoring, workshops, provision of cloud and dev
+                            resources, collaboration, networking, and strategic
+                            partnerships with experts, lecturers, and industry
+                            leaders.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h4 class="text-xl">
+                            Expert Guidance for Lasting Success
+                        </h4>
+                        <p>
+                            We understand that the road to success can be
+                            complex and intimidating. That's why we provide
+                            startups with a network of seasoned mentors, experts
+                            who have traversed the path themselves. Our mentors
+                            offer personalized guidance, imparting their
+                            invaluable insights, proven strategies, and industry
+                            wisdom. Through one-on-one mentoring sessions,
+                            startups gain clarity, expand their perspectives,
+                            and receive tailored advice on refining their
+                            business strategies. With the guidance of our
+                            experienced mentors, entrepreneurs confidently steer
+                            their ventures towards sustainable growth and
+                            long-term success.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h4 class="text-xl">
+                            Equipping Entrepreneurs with Essential Skills
+                        </h4>
+                        <p>
+                            Continuous learning is at the core of
+                            entrepreneurial success. Our dynamic workshops cover
+                            a diverse range of topics, from market research and
+                            financial planning to product development and
+                            marketing strategies. Led by industry professionals,
+                            these workshops provide startups with practical
+                            knowledge, cutting-edge methodologies, and hands-on
+                            tools to sharpen their skills. By attending these
+                            immersive sessions, entrepreneurs gain the
+                            confidence and competence they need to navigate
+                            challenges, seize opportunities, and build a robust
+                            foundation for their businesses.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h4 class="text-xl">
+                            Empowering Digital Transformation
+                        </h4>
+                        <p>
+                            In the digital age, embracing technology is vital
+                            for startups to thrive. To support entrepreneurs in
+                            their tech-driven ambitions, we provide access to
+                            cutting-edge cloud services and development
+                            resources. Startups can leverage these provisions
+                            for hosting, storage, and development tools. By
+                            removing the barriers to entry for digital
+                            innovation, we enable startups to focus on what they
+                            do best – creating and scaling disruptive
+                            technologies that redefine industries. foundation
+                            for their businesses.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h4 class="text-xl">
+                            Amplifying Potential through Strategic Alliances
+                        </h4>
+                        <p>
+                            We understand the power of collaborative ecosystems.
+                            That's why we partner with esteemed experts,
+                            lecturers, and industry leaders who share our vision
+                            of driving innovation. These strategic partnerships
+                            provide startups with additional resources,
+                            mentorship, and exposure, giving them a competitive
+                            edge in the market. By joining forces with renowned
+                            figures in the industry, startups can tap into a
+                            vast network of opportunities, gain industry
+                            insights, and propel their growth towards
+                            unprecedented heights.
+                        </p>
+                    </div>
+                </div>
+                <div
+                    class="bg-zinc-200 p-8 flex flex-col gap-2 max-w-sm w-full drop-shadow-sm lg:sticky top-4"
+                >
+                    <p class="text-zinc-950 text-sm uppercase">
+                        You should reach out to us if:
+                    </p>
+                    <p>
+                        <ul class="list-disc">
+                            <li>
+                                You are a student who wants to learn how to
+                                build a real product.
+                            </li>
+                            <li>
+                                You are an expert in your field and want to help
+                                others learn industrial skills.
+                            </li>
+                            <li>
+                                You are a company that wants to hire students
+                                who have real world experience.
+                            </li>
+                            <li>
+                                You are an investor who wants to invest in
+                                student startups.
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="py-24 p-4 bg-white">
+        <div class="prose mx-auto max-w-screen-xl container">
+            <h3 class="text-3xl mb-4">
+                It all starts with an idea and a great team
+            </h3>
+            <div
+                class="flex flex-col lg:flex-row gap-16 justify-between w-full items-start"
+            >
+                <div class="flex flex-col gap-8">
+                    <p>
+                        It all starts with the idea, the product, the vision and
+                        the team. No one has ever done it, its so painfully
+                        obvious, can you build it? Yes! We can help you build
+                        it. We are here to help you learn the skills you need to
+                        become a successful entrepreneur.
+                    </p>
+                    <div class="flex flex-col gap-1">
+                        <h4 class="text-xl">Vision</h4>
+                        <p>
+                            We have a vision of a world where everyone has the
+                            opportunity to learn the skills they need to become
+                            a successful entrepreneur.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <h4 class="text-xl">Mission</h4>
+                        <p>
+                            We are here to help you learn the skills you need to
+                            become a successful entrepreneur. Through our
+                            comprehensive programs, mentorship, and access to a
+                            vibrant entrepreneurial community, we aim to foster
+                            a culture of innovation, drive, and resilience.
+                        </p>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <h4 class="text-xl">Core values</h4>
+                        <p>
+                            <ul class="list-disc">
+                                <li>
+                                    Integrity: We are honest and transparent in
+                                    all our dealings.
+                                </li>
+                                <li>
+                                    Excellence: We strive to be the best at what
+                                    we do.
+                                </li>
+                                <li>
+                                    Innovation: We are always looking for new
+                                    ways to do things better.
+                                </li>
+                                <li>
+                                    Community: We believe that the best way to
+                                    learn is by doing, and that the best way to
+                                    do is by working with others.
+                                </li>
+                                <li>
+                                    Collaboration: We believe that the best way
+                                    to work with others is to be part of a
+                                    community.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <p>
+                        These values guide our actions and decisions as we work
+                        towards our mission of empowering innovators and
+                        building future leaders.
+                    </p>
+                </div>
+                <div class="max-w-sm w-full flex flex-col gap-8">
+                    <div class="bg-blue-100 p-8 flex flex-col gap-2">
+                        <p class="text-zinc-950 text-sm uppercase font-">
+                            Unleash your potential
+                        </p>
+                        <p class="text-blue-950">
+                            We are committed to nurturing and empowering
+                            individuals with groundbreaking ideas, providing
+                            them with the resources, guidance, and support they
+                            need to turn their dreams into reality.
+                        </p>
+                    </div>
+                    <div class="bg-orange-100 p-8 flex flex-col gap-2">
+                        <p class="text-zinc-950 text-sm uppercase font-">
+                            Empowering Innovators, Building Future Leaders
+                        </p>
+                        <p class="text-orange-950">
+                            We strive to provide a platform that enables
+                            ambitious individuals to transform their ideas into
+                            successful businesses.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="p-4">
+        <div class="prose py-24 mx-auto max-w-screen-xl container">
+            <h3 class="text-3xl mb-4">Driven by the spirit of collaboration</h3>
+            <div
+                class="flex flex-col lg:flex-row gap-8 justify-between w-full max-w-screen-md"
+            >
+                <div class="flex flex-col gap-8">
+                    <p>
+                        We believe that the best way to learn is by doing, and
+                        that the best way to do is by working with others. We
+                        have partnered with industry experts to help you learn
+                        the skills you need to become a successful entrepreneur.
+                        <br />
+                        <br />
+                        In addition to that we are always looking for partners who
+                        can help us grow our community. If you are interested in
+                        partnering with us, please reach out to us at{" "}
+
+                        <a href="mailto:hey@tif.co.zw"> hey@tif.co.zw</a>. As a
+                        partner you will have access to our community of
+                        students and will be able to help them learn the skills
+                        they need to become successful entrepreneurs. Partners
+                        also get consulation preference and access to our
+                        network of experts.
+                    </p>
+                    <div class="flex flex-col gap-4">
+                        <div>
+                            <p class="uppercase text-sm font- text-zinc-950">
+                                Partners
+                            </p>
+                            <p>
+                                Patners are selected based on their ability to
+                                provide value to our community.
+                            </p>
+                        </div>
+                        <div class="flex gap-8 items-center">
+                            <a
+                                href="https://cut.ac.zw"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    src="https://www.cut.ac.zw/welcome/assets/img/logo.png"
+                                    class="w-16 h-16 rounded-full"
+                                    alt="CUT"
+                                />
+                            </a>
+                            <a
+                                href="https://cut.ac.zw"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    src="https://chapterone.cdn.prismic.io/chapterone/473be880-59c0-4175-a875-a3c9ad214389_Frame+48.svg"
+                                    class="w-24 h-24 rounded-full"
+                                    alt="CUT"
+                                />
+                            </a>
+                            <a
+                                href="https://cut.ac.zw"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    src="https://panteracapital.com/wp-content/uploads/2021/02/Ripple-logo.svg"
+                                    class="w-24 h-24"
+                                    alt="CUT"
+                                />
+                            </a>
+                            <a
+                                href="https://cut.ac.zw"
+                                rel="noreferrer"
+                                target="_blank"
+                            >
+                                <img
+                                    src="https://chapterone.cdn.prismic.io/chapterone/85e964ac-9560-46b4-a46c-98ff339f9cc7_Moonpay+dark.svg"
+                                    class="w-24 h-24 rounded-full"
+                                    alt="CUT"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    #banner span:nth-child(2) {
+        animation-delay: 0.1s;
+    }
+
+    #banner span:nth-child(3) {
+        animation-delay: 0.2s;
+    }
+
+    #banner span:nth-child(4) {
+        animation-delay: 0.3s;
+    }
+</style>

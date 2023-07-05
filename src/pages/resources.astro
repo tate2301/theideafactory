@@ -1,0 +1,158 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Divider from "../components/Divider.astro";
+import ExternalLink from "../components/icons/ExternalLink.astro";
+---
+
+<Layout title="Resources">
+    <div class="py-16">
+        <div
+            class="container mx-auto max-w-screen-xl py-32"
+            style="background-image: url('/chart-banner.svg'); background-position: bottom; background-repeat: no-repeat; background-size: contain;"
+        >
+            <div
+                class="flex flex-col gap-8 max-w-2xl mx-auto text-center items-center"
+            >
+                <h1 class="text-7xl font-bold">
+                    Empowering students to build the future of the world.
+                </h1>
+                <p>
+                    Our team is dedicated to providing the best resources for
+                    students to learn and build. We host weekly podcasts, send
+                    out daily newsletters and ocassionally host workshops.
+                </p>
+                <a
+                    href="/events/latest"
+                    class="text-orange-600 font- underline px-6 py-2 bg-white shadow-sm border"
+                >
+                    <svg
+                        class="w-6 h-6 inline-block mr-2 stroke-orange-600 fill-orange-600"
+                        viewBox="0 0 100 100"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <circle
+                            class="pulse"
+                            cx="50%"
+                            cy="50%"
+                            r="50%"
+                            fill="#fff00000"
+                            stroke-width="2%"
+                            stroke-opacity="0.5"
+                            id="pulse"
+                        >
+                        </circle>
+                        <circle
+                            id="center-dot"
+                            class="dot bg-orange-600"
+                            cx="50%"
+                            cy="50%"
+                            r="15%"></circle>
+                    </svg>
+                    Register for the Developer Index S2 E1
+                </a>
+            </div>
+        </div>
+    </div>
+    <Divider />
+    <div class="py-32">
+        <div
+            class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16"
+        >
+            <div class="col-span-1">
+                <h1 class="text-3xl font-bold">Blog</h1>
+                <p>Expert advice and insights from the team.</p>
+            </div>
+            <div class="col-span-1 flex flex-col divide-y gap-2">
+                <div class="py-4">
+                    <a href="/blog/why-we-built-developer-index">
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-xl">
+                                Why we built The Idea Factory
+                            </h3>
+                            <p class="text-zinc-600">
+                                We built Developer Index to help students find
+                                the best resources to learn and build. We also
+                                wanted to build a community of students who are
+                                passionate about tech.
+                            </p>
+                            <p class="text-sm text-zinc-600">
+                                3 min read • 12/12/2020 • by{" "}
+                                <a href="/team/abhinav">Tatenda</a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <div class="py-4">
+                    <a href="/blog/why-we-built-developer-index">
+                        <div class="flex flex-col gap-2">
+                            <h3 class="text-xl">
+                                Why we built The Idea Factory
+                            </h3>
+                            <p class="text-zinc-600">
+                                We built Developer Index to help students find
+                                the best resources to learn and build. We also
+                                wanted to build a community of students who are
+                                passionate about tech.
+                            </p>
+                            <p class="text-sm text-zinc-600">
+                                3 min read • 12/12/2020 • by{" "}
+                                <a href="/team/abhinav">Tatenda</a>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <Divider />
+    <div class="py-32">
+        <div
+            class="max-w-screen-xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16"
+        >
+            <div class="col-span-1">
+                <h1 class="text-3xl font-bold">Developer Index Podcast</h1>
+                <p>Latest in tech, startups and developer culture.</p>
+            </div>
+            <div class="col-span-1 flex flex-col gap-8">
+                <p>
+                    We interview founders, developers and students about their
+                    experiences in the tech industry. Each episode is packed
+                    with insights and advice for students looking to break into
+                    the tech industry. We also try to keep things light and fun
+                    with our weekly segments.
+                </p>
+                <a href="/podcast">
+                    <button class="btn btn-blue"
+                        >Listen to the Podcast
+
+                        <ExternalLink />
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .btn {
+        @apply bg-zinc-950 text-white px-6 py-2 rounded-md shadow-sm flex gap-4 items-center justify-center;
+    }
+
+    .pulse {
+        animation: pulse 1s ease-out infinite;
+        transform-origin: center;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.5);
+        }
+        50% {
+            transform: scale(1);
+        }
+        100% {
+            transform: scale(0.5);
+        }
+    }
+</style>
