@@ -22,7 +22,7 @@ const letter = {
 export const Anim = () => (
   <motion.h1
     className={
-      "text-3xl md:text-5xl xl:text-8xl font-bold text-zinc-950 staggered-animation"
+      "text-5xl xl:text-8xl font-bold text-zinc-950 staggered-animation"
     }
     variants={sentence}
     initial="hidden"
