@@ -1,0 +1,37 @@
+<svg width="1362" height="1362" viewBox="0 0 1362 1362" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_212_344)">
+<g filter="url(#filter0_f_212_344)">
+<path d="M724.009 403.893C731.123 345.571 649.258 289.112 636.148 277C643.747 283.294 680.926 299.148 768.85 312.209C878.756 328.536 855.959 308.137 1042.41 434.363C1228.87 560.589 924.35 525.38 855.959 635.079C787.568 744.778 677.422 635.079 804.126 544.062C930.829 453.045 980.263 506.697 870.357 378.316C826.488 327.072 771.071 357.989 724.009 403.893C721.251 426.511 705.11 449.408 666.386 470.109C629.573 517.707 611.9 547.949 636.148 483.943C647.483 479.467 657.526 474.845 666.386 470.109C682.548 449.213 702.398 424.973 724.009 403.893Z" fill="url(#paint0_angular_212_344)" fill-opacity="0.3"/>
+</g>
+<g filter="url(#filter1_f_212_344)">
+<path d="M288.737 990.007C252.527 943.737 154.717 961.702 136.883 962.407C146.707 961.485 184.207 946.405 255.614 893.469C344.874 827.299 314.33 828.995 535.429 786.406C756.529 743.817 516.304 934.249 545.513 1060.18C574.722 1186.11 419.268 1186.42 444.503 1032.47C469.737 878.519 542.629 881.502 374.135 868.438C306.879 863.223 289.556 924.27 288.737 990.007C302.779 1007.95 307.557 1035.56 294.813 1077.57C302.439 1137.26 311.327 1171.14 283.214 1108.74C288.063 1097.56 291.897 1087.19 294.813 1077.57C291.465 1051.37 288.361 1020.19 288.737 990.007Z" fill="url(#paint1_angular_212_344)" fill-opacity="0.3"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_212_344" x="373" y="25" width="981" height="908" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="126" result="effect1_foregroundBlur_212_344"/>
+</filter>
+<filter id="filter1_f_212_344" x="-160.117" y="483.318" width="1087.03" height="965.212" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="148.5" result="effect1_foregroundBlur_212_344"/>
+</filter>
+<radialGradient id="paint0_angular_212_344" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(863.5 479) rotate(90) scale(202 238.5)">
+<stop stop-color="#7D7D7D"/>
+<stop offset="0.28125" stop-color="#9104FF"/>
+<stop offset="0.578125" stop-color="#FF3E1E"/>
+<stop offset="1" stop-color="#0F5DF8"/>
+</radialGradient>
+<radialGradient id="paint1_angular_212_344" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(440.481 944.481) rotate(45) scale(202 238.5)">
+<stop stop-color="#7D7D7D"/>
+<stop offset="0.28125" stop-color="#9104FF"/>
+<stop offset="0.578125" stop-color="#FF3E1E"/>
+<stop offset="1" stop-color="#FF6109"/>
+</radialGradient>
+<clipPath id="clip0_212_344">
+<rect width="1362" height="1362" fill="white"/>
+</clipPath>
+</defs>
+</svg>

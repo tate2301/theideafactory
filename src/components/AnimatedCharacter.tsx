@@ -40,7 +40,7 @@ export const Anim = () => (
       <AnimatedSpan char={char} />
     ))}
     <br />
-    {"Entrepreneurship. ".split("").map((char, index) => (
+    {"Create. ".split("").map((char, index) => (
       <AnimatedSpan char={char} />
     ))}
   </motion.h1>
