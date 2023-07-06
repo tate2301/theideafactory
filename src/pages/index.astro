@@ -6,75 +6,81 @@ import Card from "../components/Card.astro";
 <Layout title="The Idea Factory">
 	<div class="pb-32 overflow-visible bg-contain">
 		<div
-			class="w-full container relative grid grid-cols-1 mx-auto max-w-screen-md text-center items-center gap-32 py-32 overflow-visible"
+			style="background-image: url('/comb-banner.svg'); background-size: 60%; background-position: center;"
+			class="border-b border-zinc-300"
 		>
 			<div
-				class="max-w-screen-xl w-full z-10 flex-1 flex flex-col gap-8 col-span-1"
+				class="w-full container relative grid grid-cols-1 mx-auto max-w-screen-md text-center items-center gap-32 py-32 overflow-visible"
 			>
 				<div
-					class="flex flex-col gap-4 animate__fadeIn animate__animated"
+					class="max-w-screen-xl w-full z-10 flex-1 flex flex-col gap-8 col-span-1"
 				>
-					<h1
-						class="text-4xl inline leading-relaxed md:text-5xl xl:text-6xl text-zinc-950 font-bold"
+					<div
+						class="flex flex-col gap-4 animate__fadeIn animate__animated"
 					>
-						Where innovation thrives!
-					</h1>
-					<p class="text-xl">
-						At The Idea Factory, we believe that innovation is the
-						key to success. We are a community of innovators,
-						creators, and entrepreneurs who are committed to helping
-						each other succeed.
-					</p>
-				</div>
-				<div
-					class="flex flex-col md:flex-row items-center gap-4 animate__fadeIn animate__animated animate__duration-1s justify-center"
-				>
-					<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
-						<button
-							class="p-2 font- bg-[#FF3E1E] px-4 text-white flex gap-2 items-center"
+						<h1
+							class="text-4xl inline leading-relaxed md:text-5xl xl:text-6xl text-zinc-950 font-bold"
 						>
-							Apply for 2023 S2
+							Where innovation thrives!
+						</h1>
+						<p class="text-xl">
+							At The Idea Factory, we believe that innovation is
+							the key to success. We are a community of
+							innovators, creators, and entrepreneurs who are
+							committed to helping each other succeed.
+						</p>
+					</div>
+					<div
+						class="flex flex-col md:flex-row items-center gap-4 animate__fadeIn animate__animated animate__duration-1s justify-center"
+					>
+						<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
+							<button
+								class="p-2 font- bg-[#FF3E1E] px-4 text-white flex gap-2 items-center"
+							>
+								Apply for 2023 cohort
+								<svg
+									width="32"
+									height="32"
+									viewBox="0 0 60 60"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M32.6778 21.5L40.5 30M32.6778 38.5L40.5 30M40.5 30L18.5 30"
+										stroke="#ffffff"
+										stroke-linecap="round"
+										stroke-linejoin="round"></path>
+								</svg>
+							</button>
+						</a>
+						<button class="flex gap-2 px-6 py-2">
 							<svg
-								width="32"
-								height="32"
-								viewBox="0 0 60 60"
-								fill="none"
 								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="w-6 h-6"
 							>
 								<path
-									d="M32.6778 21.5L40.5 30M32.6778 38.5L40.5 30M40.5 30L18.5 30"
-									stroke="#ffffff"
 									stroke-linecap="round"
-									stroke-linejoin="round"></path>
+									stroke-linejoin="round"
+									d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+								></path>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
+								></path>
 							</svg>
+							Play showreel
 						</button>
-					</a>
-					<button class="flex gap-2 px-6 py-2">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="1.5"
-							stroke="currentColor"
-							class="w-6 h-6"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
-							></path>
-						</svg>
-						Play showreel
-					</button>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="py-32 flex flex-col gap-8 bg-zinc-200 p-4">
+		<div class="py-32 flex flex-col gap-8 bg-zinc-100 p-4">
 			<div class="container mx-auto max-w-screen-xl">
 				<div class="flex flex-col gap-4">
 					<p class="uppercase text-sm font-">Process</p>
