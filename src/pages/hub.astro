@@ -1,0 +1,45 @@
+---
+import LayoutWithoutNavbar from "../layouts/LayoutWithoutNavbar.astro";
+---
+
+<LayoutWithoutNavbar title="Hub">
+    <div class="h-screen relative bg-black">
+        <div
+            class="w-full h-full flex flex-col bg-zinc-950/50 items-center justify-center z-10 absolute top-0 left-0"
+        >
+            <div class="flex justify-between w-full p-4 absolute top-0 left-0">
+                <a href="https://cut.ac.zw" rel="noreferrer" target="_blank">
+                    <img
+                        src="https://www.cut.ac.zw/welcome/assets/img/logo.png"
+                        class="w-16 h-16 rounded-full"
+                        alt="CUT"
+                    />
+                </a>
+                <p class="font-bold text-white">Menu</p>
+            </div>
+            <div class="text-center text-white">
+                <h1 class="text-8xl font-bold">
+                    Innovate <br />
+                    Collaborate <br />
+                    Create!
+                </h1>
+            </div>
+            <h6 class="bg-white mt-32 px-6 py-2 rounded-full">
+                Learn more about The Idea Factory Cohort <span class="ml-2"
+                    >&rarr;</span
+                >
+            </h6>
+        </div>
+        <video
+            autoplay
+            muted
+            loop
+            class="absolute z-0 w-full h-full object-cover"
+        >
+            <source
+                src="https://arrowarchitects.com/sites/default/files/node/field_top_video/landingpage%20h264%208000br_0.mp4"
+                type="video/mp4"
+            />
+        </video>
+    </div>
+</LayoutWithoutNavbar>
