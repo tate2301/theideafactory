@@ -297,14 +297,19 @@ import Card from "../components/Card.astro";
 				</div>
 			</div>
 		</div>
-		<div class="py-32 p-4">
+		<div
+			style="background-image: url('grid-dots-banner.svg')"
+			class="py-32 p-4 shadow-inner"
+		>
 			<div class="container mx-auto max-w-screen-xl flex flex-col gap-8">
 				<p class="uppercase text-sm font-">Get started</p>
 				<h3 class="text-3xl text-zinc-950 max-w-md font-bold">
 					Ready to take your startup to the next level?
 				</h3>
 				<div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16">
-					<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<div
+						class="p-8 flex flex-col gap-4 border border-zinc-300 bg-white/90 backdrop-blur-sm shadow-xl shadow-orange-700/20"
+					>
 						<h4 class="uppercase text-sm font-">
 							Apply to the program
 						</h4>
@@ -314,13 +319,15 @@ import Card from "../components/Card.astro";
 						</p>
 						<a href="https://5k73n0eiwmd.typeform.com/to/v9uUxbgl">
 							<button
-								class="p-2 font- bg-blue-600 px-4 text-white uppercase w-full"
+								class="p-2 font- bg-orange-600 px-4 text-white uppercase w-full"
 							>
 								Apply for 2023 S2
 							</button>
 						</a>
 					</div>
-					<div class="p-8 flex flex-col gap-4 border border-zinc-300">
+					<div
+						class="p-8 flex flex-col gap-4 border border-zinc-300 bg-white/90 backdrop-blur-sm shadow-xl"
+					>
 						<h4 class="uppercase text-sm font-">
 							Join our community
 						</h4>
