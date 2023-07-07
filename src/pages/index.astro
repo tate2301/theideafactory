@@ -73,6 +73,31 @@ import Card from "../components/Card.astro";
 							Play showreel
 						</button>
 					</div>
+					<div class="flex gap-2 justify-center">
+						<div class="flex avatar-group">
+							<img
+								src="https://images.pexels.com/photos/8864283/pexels-photo-8864283.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+								alt="someone"
+								class="w-6 h-6 rounded-full object-cover ring-2 ring-white"
+							/>
+							<img
+								src="https://images.pexels.com/photos/15664597/pexels-photo-15664597/free-photo-of-portrait-of-man.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+								alt="someone"
+								class="w-6 h-6 rounded-full object-cover ring-2 ring-white"
+							/>
+							<img
+								src="https://images.pexels.com/photos/17484150/pexels-photo-17484150/free-photo-of-take-me-2.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+								alt="someone"
+								class="w-6 h-6 rounded-full object-cover ring-2 ring-white"
+							/>
+							<img
+								src="https://images.pexels.com/photos/17413708/pexels-photo-17413708/free-photo-of-neon.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+								alt="someone"
+								class="w-6 h-6 rounded-full object-cover ring-2 ring-white"
+							/>
+						</div>
+						<p class="text-zinc-500">+3 others have registered.</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -370,6 +395,18 @@ import Card from "../components/Card.astro";
 			#comb-bg {
 				background-size: 90%;
 			}
+		}
+
+		.avatar-group {
+			overflow: hidden;
+		}
+
+		.avatar-group > * {
+			flex-shrink: 0;
+		}
+
+		.avatar-group > * + * {
+			margin-left: -0.5rem;
 		}
 	</style>
 </Layout>
